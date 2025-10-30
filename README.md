@@ -11,15 +11,15 @@ Simple Python based webpage to markdown converter for the command-line.
 - argh
 - requests
 
-## Installation
+## Installation (Linux)
 
-1.a open your prefered directory
+1. a) open your prefered directory
 
 ```sh
 mkdir ~/Python
 ```
 
-1.b change to it
+1. b) change to it
 
 ```
 cd ~/Python
@@ -34,7 +34,7 @@ git clone https://github.com/deckmoss/web2md-converter
 4. create new python venv
 
 ```sh
-python -m venv web2md-converter/venv_web2md
+python3 -m venv web2md-converter/venv_web2md
 ```
 
 5. activate python venv
@@ -63,23 +63,57 @@ _Optional:_
 deactivate
 ```
 
+## Installation (NixOS)
+
+1. a) open your prefered directory
+
+```sh
+mkdir ~/Python
+```
+
+1. b) change to it
+
+```
+cd ~/Python
+```
+
+3. clone git repository
+
+```sh
+git clone https://github.com/deckmoss/web2md-converter
+```
+
+4. create nix-shell user environment from preserved file
+ 
+```sh
+cd web2md-converter && nix-shell
+```
+
 ## Usage
 
-### Activation
+### Activation (non-NixOS)
 _Optional:_ When inactive you must re-activate project's **venv** at first.
 
 ```sh
 source web2md-converter/venv_web2md/bin/activate 
 ```
 
-### Execution
+### Activation (NixOS)
+
+create nix-shell user environment from preserved file
+ 
 ```sh
-python web2md-converter/web2md-converter.py "<URL>" "<DIV TARGET-CLASS>"
+cd web2md-converter && nix-shell
+```
+
+### Execution (all)
+```sh
+python3 web2md-converter/web2md-converter.py "<URL>" "<DIV TARGET-CLASS>"
 ```
 
 **Example:**
 ```sh
-python web2md-converter/web2md-converter.py "https://deckmoss.github.io/diy/unleash_ram/" "inner-post content"
+python3 web2md-converter/web2md-converter.py "https://deckmoss.github.io/diy/unleash_ram/" "inner-post content"
 ```
 
 **Output:**
@@ -89,8 +123,14 @@ Markdown content saved to output.md
 
 As you can see, web2md-converter's outputed a file called output.md into that directory from which you have executed web2md-converter from.
 
-## Deactivation
+## Deactivation (non-NixOS)
 
 ```sh
 deactivate
 ```
+
+## Deactivation (NixOS)
+
+Escape the user environment with:
+
+**CTRL + D**
