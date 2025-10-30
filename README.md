@@ -18,7 +18,7 @@ Simple Python based webpage to markdown converter for the command-line.
 copy, paste and execute this line on your shell:
 
 _all steps at once: cloning repo activating virtual environment, installing package requirements into virtual environment_
-
+_(example dir `~/Python`)_
 ```sh
 mkdir ~/Python \
 && cd ~/Python \
@@ -32,13 +32,13 @@ python3 -m pip install --upgrade pip \
 ### Step-by-step
 
 1. a) open your prefered directory
-
+_(example dir `~/Python`)_
 ```sh
 mkdir ~/Python
 ```
 
 1. b) change to it
-
+_(example dir `~/Python`)_
 ```
 cd ~/Python
 ```
@@ -97,13 +97,13 @@ nix-shell web2md-converter/shell.nix
 ### Step-by-step
 
 1. a) open your prefered directory
-_(example dir)_
+_(example dir `~/Python`)_
 ```sh
 mkdir ~/Python
 ```
 
 1. b) change to it
-_(example dir)_
+_(example dir `~/Python`)_
 ```
 cd ~/Python
 ```
@@ -134,7 +134,7 @@ source web2md-converter/venv_web2md/bin/activate
 create nix-shell user environment from preserved file
 
 1. Change directory to the parent of the local repo
-_(example dir)_
+_(example dir `~/Python`)_
 ```sh
 cd ~/Python
 ```
