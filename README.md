@@ -4,11 +4,14 @@ Simple Python based webpage to markdown converter for the command-line.
 
 ## Table of Contents
 
-- [Dependencies](#dependencies)
+- [Python Dependencies](#dependencies)
+**Linux**
 - [Quick Installation, Linux](#variant-a-quick)
 - [Step-By-Step Installation, Linux](#variant-b-step-by-step)
+**NixOS**
 - [Quick Installation, NixOS](#variant-a-quick-1)
 - [Step-By-Step Installation, NixOS](#variant-b-step-by-step-1)
+**All**
 - [Usage](#usage)
 
 
