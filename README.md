@@ -89,21 +89,20 @@ copy, paste and execute these one-by-one in your shell:
 
 ```sh
 && cd ~/Python \
-&& git clone https://github.com/deckmoss/web2md-converter \
-&& cd web2md-converter; \
-nix-shell
+&& git clone https://github.com/deckmoss/web2md-converter; \
+nix-shell web2md-converter/shell.nix
 ```
 
 ### Step-by-step
 
 1. a) open your prefered directory
-
+_(example dir)_
 ```sh
 mkdir ~/Python
 ```
 
 1. b) change to it
-
+_(example dir)_
 ```
 cd ~/Python
 ```
@@ -117,7 +116,7 @@ git clone https://github.com/deckmoss/web2md-converter
 3. create nix-shell user environment from preserved file
  
 ```sh
-cd web2md-converter && nix-shell
+nix-shell web2md-converter/shell.nix
 ```
 
 ## Usage
@@ -132,9 +131,16 @@ source web2md-converter/venv_web2md/bin/activate
 ### Activation (NixOS)
 
 create nix-shell user environment from preserved file
- 
+
+1. Change directory to the parent of the local repo
+_(example dir)_
 ```sh
-cd web2md-converter && nix-shell
+cd ~/Python
+```
+
+2. run nix-shell command
+```sh
+nix-shell web2md-converter/shell.nix
 ```
 
 ### Execution (all)
