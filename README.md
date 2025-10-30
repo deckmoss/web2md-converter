@@ -15,7 +15,7 @@ Simple Python based webpage to markdown converter for the command-line.
 
 ### Quick
 
-copy, paste and execute these one-by-one in your shell:
+copy, paste and execute this line on your shell:
 
 _all steps at once: cloning repo activating virtual environment, installing package requirements into virtual environment_
 
