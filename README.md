@@ -7,11 +7,11 @@ Simple Python based webpage to markdown converter for the command-line.
 - **Dependencies:**
   - [Python Dependencies](#dependencies)
 - **Linux:**
-  - [Quick Installation, Linux](#variant-a-quick)
-  - [Step-By-Step Installation, Linux](#variant-b-step-by-step)
+  - [Quick Installation](#variant-a-quick)
+  - [Step-By-Step Installation](#variant-b-step-by-step)
 - **NixOS:**
-  - [Quick Installation, NixOS](#variant-a-quick-1)
-  - [Step-By-Step Installation, NixOS](#variant-b-step-by-step-1)
+  - [Quick Installation](#variant-a-quick-1)
+  - [Step-By-Step Installation](#variant-b-step-by-step-1)
 - **Usage, All:**
   - [Usage](#usage)
 
