@@ -27,6 +27,7 @@ mkdir ~/Python \
 && source web2md-converter/venv_web2md/bin/activate; \
 python3 -m pip install --upgrade pip \
 && python3 -m pip install -r web2md-converter/requirements.txt
+```
 
 ### Step-by-step
 
