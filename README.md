@@ -43,31 +43,31 @@ mkdir ~/Python
 cd ~/Python
 ```
 
-3. clone git repository
+2. clone git repository
 
 ```sh
 git clone https://github.com/deckmoss/web2md-converter
 ```
 
-4. create new python venv
+3. create new python venv
 
 ```sh
 python3 -m venv web2md-converter/venv_web2md
 ```
 
-5. activate python venv
+4. activate python venv
 
 ```sh
 source web2md-converter/venv_web2md/bin/activate
 ```
 
-7. initialize pip
+5. initialize pip
 
 ```sh
 python3 -m pip install --upgrade pip
 ```
 
-8. install pip requirements from preserved file
+6. install pip requirements from preserved file
 
 ```sh
 python3 -m pip install -r web2md-converter/requirements.txt
@@ -75,7 +75,7 @@ python3 -m pip install -r web2md-converter/requirements.txt
 
 _Optional:_
 
-9. Deactivate venv if you do not want to execute web2md-converter right now.
+7. Deactivate venv if you do not want to execute web2md-converter right now.
 
 ```sh
 deactivate
@@ -108,13 +108,13 @@ mkdir ~/Python
 cd ~/Python
 ```
 
-3. clone git repository
+2. clone git repository
 
 ```sh
 git clone https://github.com/deckmoss/web2md-converter
 ```
 
-4. create nix-shell user environment from preserved file
+3. create nix-shell user environment from preserved file
  
 ```sh
 cd web2md-converter && nix-shell
