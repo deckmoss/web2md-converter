@@ -132,7 +132,7 @@ nix-shell web2md-converter/shell.nix
 
 ## Usage
 
-### Activation (non-NixOS)
+### Activate virtual environment (non-NixOS)
 _Optional:_ When inactive you must re-activate project's **venv** at first.
 
 1. Change directory to the parent of the local repo
@@ -145,7 +145,7 @@ cd ~/Python
 source web2md-converter/venv_web2md/bin/activate 
 ```
 
-### Activation (NixOS)
+### Activate virtual environment (NixOS)
 
 create nix-shell user environment from preserved file
 
@@ -177,13 +177,13 @@ Markdown content saved to output.md
 
 As you can see, web2md-converter's outputed a file called output.md into that directory from which you have executed web2md-converter from.
 
-## Deactivation (non-NixOS)
+## Deactivation of virtual environment (non-NixOS)
 
 ```sh
 deactivate
 ```
 
-## Deactivation (NixOS)
+## Deactivation of virtual environment (NixOS)
 
 Escape the user environment with:
 
