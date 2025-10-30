@@ -34,13 +34,13 @@ git clone https://github.com/deckmoss/web2md-converter
 4. create new python venv
 
 ```sh
-python -m venv web2md-converter/pyvenv
+python -m venv web2md-converter/venv_web2md
 ```
 
 5. activate python venv
 
 ```sh
-source web2md-converter/pyvenv/bin/activate
+source web2md-converter/venv_web2md/bin/activate
 ```
 
 7. initialize pip
@@ -65,13 +65,14 @@ deactivate
 
 ## Usage
 
+### Activation
 _Optional:_ When inactive you must re-activate project's **venv** at first.
 
 ```sh
-source web2md-converter/pyvenv/bin/activate 
+source web2md-converter/venv_web2md/bin/activate 
 ```
 
-
+### Execution
 ```sh
 python web2md-converter/web2md-converter.py "<URL>" "<DIV TARGET-CLASS>"
 ```
@@ -87,3 +88,9 @@ Markdown content saved to output.md
 ```
 
 As you can see, web2md-converter's outputed a file called output.md into that directory from which you have executed web2md-converter from.
+
+## Deactivation
+
+```sh
+deactivate
+```
