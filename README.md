@@ -2,7 +2,10 @@
 
 Simple Python based webpage to markdown converter for the command-line.
 
-##  Dependencies
+## Table of Contents
+[Dependencies](#Dependencies)
+
+## Dependencies
 
 - python313 (tested)
 - beautifulsoup4
@@ -13,7 +16,7 @@ Simple Python based webpage to markdown converter for the command-line.
 
 ## Installation (Linux)
 
-### Quick
+### Variant A: Quick
 
 copy, paste and execute this line on your shell:
 
@@ -29,7 +32,7 @@ python3 -m pip install --upgrade pip \
 && python3 -m pip install -r web2md-converter/requirements.txt
 ```
 
-### Step-by-step
+### Variant B: Step-by-step
 
 1. a) open your prefered directory
 _(example dir `~/Python`)_
@@ -83,7 +86,7 @@ deactivate
 
 ## Installation (NixOS)
 
-### Quick
+### Variant A: Quick
 
 copy, paste and execute this line on your shell:
 _(example dir `~/Python`)_
@@ -94,7 +97,7 @@ mkdir ~/Python \
 nix-shell web2md-converter/shell.nix
 ```
 
-### Step-by-step
+### Variant B: Step-by-step
 
 1. a) open your prefered directory
 _(example dir `~/Python`)_
