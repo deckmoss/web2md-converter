@@ -85,7 +85,7 @@ deactivate
 
 ### Quick
 
-copy, paste and execute these one-by-one in your shell:
+copy, paste and execute this line on your shell:
 
 ```sh
 && cd ~/Python \
