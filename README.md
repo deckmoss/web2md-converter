@@ -20,7 +20,8 @@ copy, paste and execute these one-by-one in your shell:
 _step 1: cloning repo enabling virtual environment_
 ```sh
 mkdir ~/Python \
-&& cd ~/Python && git clone https://github.com/deckmoss/web2md-converter \
+&& cd ~/Python \
+&& git clone https://github.com/deckmoss/web2md-converter \
 && python3 -m venv web2md-converter/venv_web2md \
 && source web2md-converter/venv_web2md/bin/activate
 ```
@@ -89,11 +90,10 @@ deactivate
 copy, paste and execute these one-by-one in your shell:
 
 ```sh
-mkdir ~/Python \
 && cd ~/Python \
 && git clone https://github.com/deckmoss/web2md-converter \
-&& cd web2md-converter \ 
-&& nix-shell
+&& cd web2md-converter; \
+nix-shell
 ```
 
 ### Step-by-step
