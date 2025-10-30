@@ -17,19 +17,16 @@ Simple Python based webpage to markdown converter for the command-line.
 
 copy, paste and execute these one-by-one in your shell:
 
-_step 1: cloning repo enabling virtual environment_
+_all steps at once: cloning repo activating virtual environment, installing package requirements into virtual environment_
+
 ```sh
 mkdir ~/Python \
 && cd ~/Python \
 && git clone https://github.com/deckmoss/web2md-converter \
 && python3 -m venv web2md-converter/venv_web2md \
-&& source web2md-converter/venv_web2md/bin/activate
-```
-_step 2: installing package requirements into venv_
-```sh
+&& source web2md-converter/venv_web2md/bin/activate; \
 python3 -m pip install --upgrade pip \
 && python3 -m pip install -r web2md-converter/requirements.txt
-```
 
 ### Step-by-step
 
