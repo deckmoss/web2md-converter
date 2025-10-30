@@ -13,6 +13,21 @@ Simple Python based webpage to markdown converter for the command-line.
 
 ## Installation (Linux)
 
+### Quick
+
+copy, paste and execute this line in your shell:
+
+```sh
+mkdir ~/Python \
+&& cd ~/Python && git clone https://github.com/deckmoss/web2md-converter \
+&& python3 -m venv web2md-converter/venv_web2md \
+&& source web2md-converter/venv_web2md/bin/activate \
+&& python3 -m pip install --upgrade pip \
+&& python3 -m pip install -r web2md-converter/requirements.txt
+```
+
+### Step-by-step
+
 1. a) open your prefered directory
 
 ```sh
