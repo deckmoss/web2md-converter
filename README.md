@@ -86,8 +86,9 @@ deactivate
 ### Quick
 
 copy, paste and execute this line on your shell:
-
+_(example dir `~/Python`)_
 ```sh
+mkdir ~/Python \
 && cd ~/Python \
 && git clone https://github.com/deckmoss/web2md-converter; \
 nix-shell web2md-converter/shell.nix
