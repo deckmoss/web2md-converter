@@ -125,6 +125,12 @@ nix-shell web2md-converter/shell.nix
 ### Activation (non-NixOS)
 _Optional:_ When inactive you must re-activate project's **venv** at first.
 
+1. Change directory to the parent of the local repo
+_(example dir `~/Python`)_
+```sh
+cd ~/Python
+```
+2. activate venv
 ```sh
 source web2md-converter/venv_web2md/bin/activate 
 ```
