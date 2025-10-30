@@ -34,13 +34,13 @@ git clone https://github.com/deckmoss/web2md-converter
 4. create new python venv
 
 ```sh
-python -m venv web2md-converter
+python -m venv web2md-converter/pyvenv
 ```
 
 5. activate python venv
 
 ```sh
-source web2md-converter/bin/activate
+source web2md-converter/pyvenv/bin/activate
 ```
 
 7. initialize pip
@@ -68,7 +68,7 @@ deactivate
 _Optional:_ When inactive you must re-activate project's **venv** at first.
 
 ```sh
-source web2md-converter/bin/activate 
+source web2md-converter/pyvenv/bin/activate 
 ```
 
 
