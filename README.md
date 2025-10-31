@@ -3,12 +3,11 @@
 **python3 web2md-converter.py** `"<URL>"` `"<DIV TARGET-CLASS>"`
 
 **Output:** _output.md_
-
-Description: 
+ 
 **Simple Python based two parameter webpage to markdown converter for the command-line.**
 
-**1st Parameter**: _**HTTP/HTTPS URL**_    like  "https://deckmoss.github.io/diy/unleash_ram/"
-**2nd Parameter**: _**div class**_         like  "inner-post content"
+- **1st Parameter**: _**HTTP/HTTPS URL**_    like  "https://deckmoss.github.io/diy/unleash_ram/"
+- **2nd Parameter**: _**div class**_         like  "inner-post content"
 
 Scrapes div's content from 2nd argument div class on 1st arguments webpage and converts html to markdown with embedded images in base64 encoding. 
 
