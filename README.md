@@ -1,9 +1,10 @@
 # web2md-converter
 
-**python3 web2md-converter.py** **"<URL>" "<DIV TARGET-CLASS>"**
+**python3 web2md-converter.py** "<URL>" "<DIV TARGET-CLASS>"
 
 **Output:** _output.md_
 
+Description: 
 **Simple Python based two parameter webpage to markdown converter for the command-line.**
 
 **1st Parameter**: _**HTTP/HTTPS URL**_    like  "https://deckmoss.github.io/diy/unleash_ram/"
