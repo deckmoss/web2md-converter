@@ -7,10 +7,10 @@ Simple Python based webpage to markdown converter for the command-line.
 - **Dependencies:**
   - [Python/PIP](#dependencies)
 - **Linux:**
-  -**Using venv:**
+  - **Using venv:**
     - [Quick Installation](#variant-a-quick)
     - [Step-By-Step Installation](#variant-b-step-by-step)
-  -**Using pipenv**
+  - **Using pipenv [RECOMMENDED]**
     - [Quick Installation](#pipenv-quick-installation)
     - [Pipenv Usage](#usage)
 - **NixOS:**
