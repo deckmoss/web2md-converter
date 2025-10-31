@@ -1,6 +1,6 @@
 # web2md-converter
 
-**python3 web2md-converter.py** "<URL>" "<DIV TARGET-CLASS>"
+**python3 web2md-converter.py** `"<URL>"` `"<DIV TARGET-CLASS>"`
 
 **Output:** _output.md_
 
