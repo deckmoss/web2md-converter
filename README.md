@@ -2,7 +2,7 @@
 
 Simple Python based webpage to markdown converter for the command-line.
 
-## Table of Contents
+## Table of Content
 
 - **Dependencies:**
   - [Python/PIP](#dependencies)
