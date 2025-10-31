@@ -110,10 +110,13 @@ _Optional:_
 deactivate
 ```
 
-## Pipenv
+## Pipenv [RECOMMENDED]
+
+I recommend this, because the pipenv toolchain does not requiere explicit profile activation, which enables "one-liner" executions after deployment.
 
 ### Pipenv Quick Installation
 
+copy, paste and execute this line on your shell:
 _(example dir `~/Python`)_
 ```sh
 mkdir ~/Python \
