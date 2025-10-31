@@ -7,13 +7,17 @@ Simple Python based webpage to markdown converter for the command-line.
 - **Dependencies:**
   - [Python/PIP](#dependencies)
 - **Linux:**
-  - [Quick Installation](#variant-a-quick)
-  - [Step-By-Step Installation](#variant-b-step-by-step)
+  -**Using venv:**
+    - [Quick Installation](#variant-a-quick)
+    - [Step-By-Step Installation](#variant-b-step-by-step)
+  -**Using pipenv**
+    - [Quick Installation](#pipenv-quick-installation)
+    - [Pipenv Usage](#usage)
 - **NixOS:**
   - [Quick Installation](#variant-a-quick-1)
   - [Step-By-Step Installation](#variant-b-step-by-step-1)
-- **Usage, All:**
-  - [Usage](#usage)
+- **Usage, non-Pipenv:**
+  - [Usage](#usage-1)
 
 
 ## Dependencies
@@ -93,6 +97,35 @@ _Optional:_
 
 ```sh
 deactivate
+```
+
+## Pipenv
+
+### Pipenv Quick Installation
+
+_(example dir `~/Python`)_
+```sh
+mkdir ~/Python \
+&& cd ~/Python \
+&& git clone https://github.com/deckmoss/web2md-converter \
+&& python3 -m pip install --upgrade pip \
+&& python3 -m pip install pipenv \
+&& cd web2md-converter \
+&& pipenv install
+```
+
+### Usage
+
+Pipenv allows us to run the web2md-converter without activating the virtual environment like in the other variants. 
+
+```sh
+pipenv run python3 /path/to/web2md-converter/web2md-converter.py "URL" "DIV CLASS"
+```
+
+**Example:**
+
+```sh
+pipenv run python3 web2md-converter/web2md-converter.py "https://deckmoss.github.io/diy/unleash_ram/" "inner-post content"
 ```
 
 ## Installation (NixOS)
