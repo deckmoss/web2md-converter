@@ -3,6 +3,8 @@
 **python3 web2md-converter.py** `"<URL>"` `"<DIV TARGET-CLASS>"`
 
 **Output:** _output.md_
+
+---
  
 **Simple Python based two parameter webpage to markdown converter for the command-line.**
 
