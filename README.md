@@ -128,9 +128,22 @@ mkdir ~/Python \
 && pipenv install
 ```
 
+The last command must have created a virtual environment somewhere within the user's home directory, which preserves the declared dependencies. If you want to verify, try: `pipenv --venv` (from the projects directory) 
+
 ### Usage
 
 Pipenv allows us to run the web2md-converter without activating the virtual environment like in the other variants. 
+
+#### 1. Pointing PIPENV_PIPFILE to the projects Pipfile  
+
+Usually pipenv applies that particular virtual environment, which it associates with the actual directory _($PWD)_ and its containing Pipfile.
+In order to bypass this behaviour, we must inform pipenv about the preferred virtual environment to enter.
+
+```sh
+export PIPENV_PIPFILE=~/Python/web2md-converter/Pipfile
+```
+
+#### 2. Executions from anywhere
 
 ```sh
 pipenv run python3 /path/to/web2md-converter/web2md-converter.py "URL" "DIV CLASS"
@@ -139,7 +152,7 @@ pipenv run python3 /path/to/web2md-converter/web2md-converter.py "URL" "DIV CLAS
 **Example:**
 
 ```sh
-pipenv run python3 web2md-converter/web2md-converter.py "https://deckmoss.github.io/diy/unleash_ram/" "inner-post content"
+pipenv run python3 ~/Python/web2md-converter/web2md-converter.py "https://deckmoss.github.io/diy/unleash_ram/" "inner-post content"
 ```
 
 ## Installation (NixOS)
