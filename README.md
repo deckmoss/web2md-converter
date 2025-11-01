@@ -44,7 +44,7 @@ Scrapes div's content from 2nd argument div class on 1st arguments webpage and c
 
 ### Variant A: Quick
 
-copy, paste and execute this line on your shell:
+copy, paste and execute this line in your shell:
 
 _all steps at once: cloning repo activating virtual environment, installing package requirements into virtual environment_
 _(example dir `~/Python`)_
@@ -116,7 +116,7 @@ I recommend this, because the pipenv toolchain does not requiere explicit profil
 
 ### Pipenv Quick Installation
 
-copy, paste and execute this line on your shell:
+copy, paste and execute this line in your shell:
 _(example dir `~/Python`)_
 ```sh
 mkdir ~/Python \
@@ -159,7 +159,7 @@ pipenv run python3 ~/Python/web2md-converter/web2md-converter.py "https://deckmo
 
 ### Variant A: Quick
 
-copy, paste and execute this line on your shell:
+copy, paste and execute this line in your shell:
 _(example dir `~/Python`)_
 ```sh
 mkdir ~/Python \
